@@ -62,6 +62,7 @@ export interface SkillGenerationResult {
   message?: string;
   serviceName?: string;
   serviceDescription?: string;
+  shortDescription?: string;
   skillFolderName?: string;
   files?: SkillFiles;
   endpoints?: EndpointPreview[];
